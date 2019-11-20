@@ -1,0 +1,7 @@
+I"<p>E-commerce startup that used Symfony 2, JQuery, Bootstrap, and AWS.</p>
+<ul>
+  <li>Developed the wish list and cart system.</li>
+  <li>Implemented payment methods for Dragon Pay, Easy Pay, and PayPal.</li>
+  <li>Improved product search system using Elasticsearch.</li>
+</ul>
+:ET

@@ -1,0 +1,16 @@
+I"ð<p>Maintained and created various strategic integrations for Zendesk.
+Also involved in creating Zendesk Integration Services, a series of micro services that will eventually allow engineers to declaratively implement Integrations.
+With the intent of eventually introducing these set of services to 3rd party integration developers.</p>
+<ul>
+  <li>Learned Go Lang for Slack Integration and Salesforce v2 Integration.</li>
+  <li>Contributed on some of Zendeskâ€™s in house Go Lang libraries.</li>
+  <li>Involve in the development and maintenance of PHP integrations like Shopify, MS Teams, Outlook, and Hubspot.</li>
+  <li>Improved and documented development setup of PHP integrations with the intention of stream lining handover process to new maintainers.</li>
+  <li>Maintained plugins for Wordpress Support, Wordpress Chat, and Magento 1.</li>
+  <li>Developed ZAF v2 app for Shopify using React Redux reusing some Zendesk Garden css and components.</li>
+  <li>Dockerized some of the integrations we maintain.</li>
+  <li>Created unit tests and browser tests.</li>
+  <li>Learned proper AGILE methodology.</li>
+  <li>Lead some of the epics like Slack Integration Answer Bot functionality, Slack Integration Localization, and Salesforce v2 error handling.</li>
+</ul>
+:ET

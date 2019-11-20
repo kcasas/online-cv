@@ -3,12 +3,15 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Karl Dominik Casas
-    tagline: Software Engineer
+    taglines:
+      - Software Engineer
+      - and
+      - Aspiring Pen Tester
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -17,140 +20,140 @@ sidebar:
     linkedin: karl-dominik-casas-a832b461
     github: kcasas
 
+    certifications:
+    - name: Philippine National I.T. Standards
+      link: https://www.philnits.org/passers201505.html
+      description: |
+        FE05-0012
+
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Software Engineer for over six years with experience in Go, Laravel, Symfony, React, Docker, MySQL, and Kubernetes.
+      Worked with a range of companies from startups to globally competitive companies like Zendesk and Magic.
+
 education:
     - degree: B.S. in Computer Science
       university: University of the Philippines
       time: 2009 - 2013
-      details: DOST Scholarship - SEI RA 7687
-        
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
     - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+      time: Nov 2019 - Present
+      company: <a href="https://getmagic.com" target="_blank">Magic</a>, Remote
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Responsible for maintaining and improving internal tools used by Virtual Assistants. Tech stack is Meteor, Mongo, React, and AWS.
+    - role: Senior Software Engineer
+      time: Nov 2016 - Oct 2019
+      company: <a href="https://zendesk.com" target="_blank">Zendesk</a>, ​Philippines
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Maintained and created various strategic integrations for Zendesk.
+        Also involved in creating Zendesk Integration Services, a series of micro services that will eventually allow engineers to declaratively implement Integrations.
+        With the intent of eventually introducing these set of services to 3rd party integration developers.
+          - Learned Go Lang for Slack Integration and Salesforce v2 Integration.
+          - Contributed on some of Zendesk's in house Go Lang libraries.
+          - Involve in the development and maintenance of PHP integrations like Shopify, MS Teams, Outlook, and Hubspot.
+          - Improved and documented development setup of PHP integrations with the intention of stream lining handover process to new maintainers.
+          - Maintained plugins for Wordpress Support, Wordpress Chat, and Magento 1.
+          - Developed ZAF v2 app for Shopify using React Redux reusing some Zendesk Garden css and components.
+          - Dockerized some of the integrations we maintain.
+          - Created unit tests and browser tests.
+          - Learned proper AGILE methodology.
+          - Lead some of the epics like Slack Integration Answer Bot functionality, Slack Integration Localization, and Salesforce v2 error handling.
+    - role: Senior Software Engineer
+      time: Aug 2015 - Oct 2016
+      company: Yilinker Inc, Philippines
+      details: |
+        E-commerce startup that used Symfony 2, JQuery, Bootstrap, and AWS.
+          - Developed the wish list and cart system.
+          - Implemented payment methods for Dragon Pay, Easy Pay, and PayPal.
+          - Improved product search system using Elasticsearch.
+    - role: Web Developer
+      time: Mar 2013 - Jul 2015
+      company: <a href="https://www.goabroad.com/" target="_blank">GoAbroad Inc</a>, Philippines
+      details: |
+        Travel Listing website where I was responsible for refactoring some parts of the Admin website and spear heading R&D on relatively new technologies. 
+          - Developed <a href="http://goevaluator.goabroad.com/" target="_blank">GoEvaluator</a>, a review system for travellers and travel providers.
+            This was used for experimenting and learning relatively new technologies like Laravel, Angular, and Git. 
+          - Refactored some part of the Admin using Symfony 1 and JQuery.
+          - Managed and taught interns that developed the first iteration of <a href="http://www.gaplabs.ph/" target="_blank">GapLabs</a>.
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      Here's a list on some of the notable applications/libraries I was involved in.
+    assignments:
+      - title: Zendesk Salesforce Integration v2
+        link: "https://support.zendesk.com/hc/en-us/articles/360038232533-Setting-up-the-Zendesk-for-Salesforce-integration"
+        tagline: |
+          An integration used to sync tickets, contacts, and organizations between Zendesk and Salesforce.
+          Developed using Go Lang and along side ZIS Services, a micro service for Zendesk integrations.
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: ZIS Transform
+        # link: ""
+        tagline: |
+          One of the ZIS micro services with the purpose of declaratively transforming json objects into different forms.
+          This service is usually called before the next task on the pipeline in order to adjust the payload to the correct format.
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Zendesk Slack Integration
+        link: "https://slack.com/apps/A9WFQ3M0B-zendesk"
+        tagline: |
+          Integration made with Go Lang that provides a way for customers to create Zendesk tickets on Slack and also subscribe to ticket events on selected Slack channels.
+          It also has Zendesk Answer Bot support wherein a Slack user can ask questions and then the app will give Help Center article suggestions.
+
+      - title: Zendesk Shopify Integration
+        link: "https://apps.shopify.com/zendesk"
+        tagline: |
+          Integration with PHP middleware that automatically installs the Shopify App on Zendesk.
+          The Shopify App made with React Redux then provides customer and previous orders information on the ticket sidebar.
+          This is achieved by matching the email address of the Ticket requester and the Shopify customer.
+
+      - title: Zendesk Chat Wordpress plugin
+        link: "https://wordpress.org/plugins/zopim-live-chat/"
+        tagline: |
+          Plugin that automatically installs the Zendesk Chat widget on Wordpress pages.
+          Not really part of the team that originally created it but I have experience maintaining it.
+
+      - title: Yilinker
+        tagline: "Ecommerce startup on the Philippines. Eventually closed because of rival companies dominating the market."
+      
+      - title: GoEvaluator
+        link: "http://goevaluator.goabroad.com"
+        tagline: |
+          A tool for creating customizable review forms that travel providers can then send to travellers.
+          Functionality is much like google forms but provides additional quirks that complements Goabroad.com.
+          Spearheaded this project as an engineering R&D. At that time we wanted to experiment and update our tech stack.
+          Part of which is to use Git instead of SVN, Angular, and Laravel instead of Symfony.
+      
+      - title: GoAbroad
+        link: "https://www.goabroad.com"
+        tagline: |
+          Travel listing directory made using Symfony 1, JQuery, and Bootstrap.
+
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Go Lang
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: ReactJS
+        level: 90%
 
-      - name: Sketch & Photoshop
+      - name: PHP
+        level: 90%
+      
+      - name: Laravel
+        level: 90%
+      
+      - name: Symfony
+        level: 80%
+
+      - name: HTML & CSS
+        level: 70%
+
+      - name: Ruby
         level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: Docker
+        level: 60%
