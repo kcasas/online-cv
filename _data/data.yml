@@ -29,8 +29,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Software Engineer for over six years with experience in Go, Laravel, Symfony, React, Docker, MySQL, and Kubernetes.
-      Worked with a range of companies from startups to globally competitive companies like Zendesk and Magic.
+      Experienced Head of Infrastructure with a strong background in migrating applications to Kubernetes and automating DevOps tasks. Proficient in utilizing Infrastructure as Code (IaC) and implementing CI/CD pipelines. Adept at managing cross-functional teams and ensuring delivery of scalable, secure, and highly available infrastructure solutions.
 
 education:
     - degree: B.S. in Computer Science
@@ -38,8 +37,44 @@ education:
       time: 2009 - 2013
 
 experiences:
+    - role: Head of Infrastructure
+      time: Oct 2020 - Present
+      company: <a href="https://www.paymongo.com" target="_blank">PayMongo Philippines, INC.</a>, Remote
+      details: |
+        Mainly responsible for the delivery of scalable, secure, and highly available infrastructure solutions.
+        Also responsible for collaborating with various Engineering teams for their deployment and automation needs.
+          - Led the migration of applications to Kubernetes utilizing Infrastructure as Code (IaC).
+          - Implemented container orchestration and management.
+          - Designed and implemented CI/CD pipelines to ensure seamless delivery of software updates.
+          - Implemented security best practices and ensured compliance with industry standards
+          - Collaborated with software engineering teams to design and deploy cloud-based applications utilizing AWS services such as ElasticBeanstalk, Lambda, CodePipeline, CodeBuild and EKS
+          - Collaborated with QA team for them to be able to create QA automation pipelines on existing and upcoming applications on their own.
+          - Deployed and maintains open source tools to improve overall Engineering productivity
+            - ngrok
+            - spinnaker
+            - grafana
+            - loki
+            - Hashicorp Vault
+            - openunison
+            - EKS blueprints
+            - bastion
+            - prestashop
+            - magento
+            - wordpress
+          - Deployed and maintains open source tools for Data management
+            - metabase
+            - airbyte
+            - datahub
+          - Closely involve on making sure PayMongo maintains its PCI-DSS certification
+          - Partially responsible for most of IT admin tasks like handling Okta, Slack, and Google Workspace
+          - Technical Skills
+            - Infrastructure as Code (IaC) using Terraform
+            - Kubernetes (AWS EKS) and Docker for container orchestration and management
+            - Designing and implementing CI/CD pipelines using Spinnaker
+            - AWS services such as EC2, ElasticBeanstalk, CodePipeline, CodeBuild, Lambda, ElastiCache, EFS, EKS, S3, Route53, ALB, Certificate Manager and RDS
+            - Kubernetes manifest templating using Helm
     - role: Senior Software Engineer
-      time: Nov 2019 - Present
+      time: Nov 2019 - Sep 2020
       company: <a href="https://getmagic.com" target="_blank">Magic</a>, Remote
       details: |
         Responsible for maintaining and improving internal tools used by Virtual Assistants. Tech stack is Meteor, Mongo, React, and AWS.
