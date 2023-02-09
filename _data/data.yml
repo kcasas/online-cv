@@ -9,9 +9,7 @@ sidebar:
     # Profile information
     name: Karl Dominik Casas
     taglines:
-      - Software Engineer
-      - and
-      - Aspiring Pen Tester
+      - Infrastructure Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -163,32 +161,3 @@ projects:
         link: "https://www.goabroad.com"
         tagline: |
           Travel listing directory made using Symfony 1, JQuery, and Bootstrap.
-
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Go Lang
-        level: 95%
-
-      - name: ReactJS
-        level: 90%
-
-      - name: PHP
-        level: 90%
-      
-      - name: Laravel
-        level: 90%
-      
-      - name: Symfony
-        level: 80%
-
-      - name: HTML & CSS
-        level: 70%
-
-      - name: Ruby
-        level: 60%
-
-      - name: Docker
-        level: 60%
