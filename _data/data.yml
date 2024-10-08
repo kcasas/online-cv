@@ -35,8 +35,22 @@ education:
       time: 2009 - 2013
 
 experiences:
+    - role: Senior DevOps Engineer
+      time: May 2023 - Present
+      company: <a href="https://www.xevant.com" target="_blank">Xevant</a>, Remote
+      details: |
+        Responsible for adapting and migrating legacy workloads from EC2/Ansible to EKS/Terraform.
+        Technologies used: AWS, EKS, Spot.io, Terraform, Helm, Docker, and Argo.
+          - Provisioned and managed AWS EKS clusters across multiple AWS environments/accounts: devops, development, staging, and production.
+          - Utilized Terraform to create reusable module for EKS clusters and associated resources.
+          - Containerized applications using Docker and Helm to managed deployment of containerized applications on EKS.
+          - Utilized Spot.io for node autoscaling and cost optimization, significantly reducing infrastructure costs while maintaining system reliability.
+          - Deployed and integrated Argo CD, Workflows, and Events, streamlining the CI/CD processes for new use cases, and improving automation across various teams.
+          - Implemented observability tools (Grafana, Prometheus, Thanos, Loki) for monitoring and troubleshooting Kubernetes workloads in EKS, improving visibility and reducing downtime.
+          - Collaborated with QA teams by deploying Selenium Grid and integrating Argo CD to automate and run end-to-end tests, enhancing test automation and reliability.
+          - Successfully migrated legacy EC2 and Ansible-managed workloads, including SonarQube and Uptime Kuma, to AWS EKS.
     - role: Head of Infrastructure
-      time: Oct 2020 - Present
+      time: Oct 2020 - April 2023
       company: <a href="https://www.paymongo.com" target="_blank">PayMongo Philippines, INC.</a>, Remote
       details: |
         Mainly responsible for the delivery of scalable, secure, and highly available infrastructure solutions.
